@@ -1,0 +1,34 @@
+Token{type='KEYWORD', value='IDENTIFICATION'}
+Token{type='KEYWORD', value='DIVISION'}
+Token{type='PUNCTUATION', value='.'}
+Token{type='KEYWORD', value='PROGRAM-ID'}
+Token{type='PUNCTUATION', value='.'}
+Token{type='IDENTIFIER', value='MYPROGRAM'}
+Token{type='PUNCTUATION', value='.'}
+Token{type='KEYWORD', value='PROCEDURE'}
+Token{type='KEYWORD', value='DIVISION'}
+Token{type='PUNCTUATION', value='.'}
+Token{type='KEYWORD', value='DISPLAY'}
+Token{type='STRING', value='"Hello, COBOL!"'}
+Token{type='PUNCTUATION', value='.'}
+Token{type='KEYWORD', value='MOVE'}
+Token{type='NUMBER', value='100'}
+Token{type='KEYWORD', value='TO'}
+Token{type='IDENTIFIER', value='COUNTER'}
+Token{type='PUNCTUATION', value='.'}
+Token{type='KEYWORD', value='IF'}
+Token{type='IDENTIFIER', value='COUNTER'}
+Token{type='OPERATOR', value='>='}
+Token{type='NUMBER', value='50'}
+Token{type='KEYWORD', value='THEN'}
+Token{type='KEYWORD', value='DISPLAY'}
+Token{type='STRING', value='"Counter is greater than or equal to 50."'}
+Token{type='KEYWORD', value='ELSE'}
+Token{type='KEYWORD', value='DISPLAY'}
+Token{type='STRING', value='"Counter is less than 50."'}
+Token{type='KEYWORD', value='END-IF'}
+Token{type='PUNCTUATION', value='.'}
+Token{type='COMMENT', value='*> This is a comment.'}
+Token{type='KEYWORD', value='STOP'}
+Token{type='KEYWORD', value='RUN'}
+Token{type='PUNCTUATION', value='.'}
